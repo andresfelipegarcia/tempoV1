@@ -1,0 +1,265 @@
+#body {
+    background-color: black;
+    background-image: url("tempo.jpg");
+    background-size: 800px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+/*CUADRO-1 DOLAR */
+
+.square-box{
+    position: relative;
+    top: 75;
+    left: 20;
+    width: 23%;
+    height: 20%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 80%;
+}
+.square-content{
+    position:  absolute;    
+    top: -20;
+    left: 15;
+    bottom: 0;
+    right: 0;
+    color: black;
+    text-align: center;
+}
+
+
+
+/*CUADRO-2 EURO */
+
+.square-box2{
+    position: relative;
+    top: 125;
+    left: 20;
+    width: 23%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-3 PRETOLEO */
+
+.square-box3{
+    position: relative;
+    top: 175;
+    left: 20;
+    width: 23%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-4 UVR */
+
+.square-box4{
+    position: relative;
+    top: -275;
+    left: 960;
+    width: 23%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-5 DTF */
+
+.square-box5{
+    position: relative;
+    top: -215;
+    left: 960;
+    width: 23%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-6 CAFE */
+
+.square-box6{
+    position: relative;
+    top: -165;
+    left: 960;
+    width: 23%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*INPUT*/
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top:-13px;
+}
+input:focus {
+    outline:none;
+}
+
+
+/*H3*/
+
+h3 {
+    font-family: Vivaldi, cursive;
+    font-size: 30px;
+}
+
+/*Resolución de pantall de 1280*/
+@media screen and (max-width:1280px){
+	#body {
+    background-color: black;
+    background-image: url("tempo.jpg");
+    background-size: 750px 550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+/*CUADRO-1 DOLAR */
+
+.square-box{
+    position: relative;
+    top: 100;
+    left: 20;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 80%;
+}
+.square-content{
+    position:  absolute;    
+    top: -20;
+    left: 15;
+    bottom: 0;
+    right: 0;
+    color: black;
+    text-align: center;
+}
+
+/*CUADRO-2 EURO */
+
+.square-box2{
+    position: relative;
+    top: 150;
+    left: 20;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-3 PRETOLEO */
+
+.square-box3{
+    position: relative;
+    top: 200;
+    left: 20;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-4 UVR */
+
+.square-box4{
+    position: relative;
+    top: -365;
+    left: 930;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-5 DTF */
+
+.square-box5{
+    position: relative;
+    top: -315;
+    left: 930;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*CUADRO-6 CAFE */
+
+.square-box6{
+    position: relative;
+    top: -265;
+    left: 930;
+    width: 25%;
+    height: 18%;
+    overflow: hidden;
+    background: yellow;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*INPUT*/
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top:-13px;
+}
+input:focus {
+    outline:none;
+}
+
+/*H3*/
+
+h3 {
+    font-family: Vivaldi, cursive;
+    font-size: 40px;
+}
+}

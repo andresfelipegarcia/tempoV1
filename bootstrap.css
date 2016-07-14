@@ -1,0 +1,27 @@
+body{
+	background-color:black; 
+	background-image: url(tempo.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+
+input{
+	margin-top:20px; 
+	margin-left:20px;
+	background-color:yellow;
+	border-width:0;
+	text-align: center; 
+	font-size:20px;
+}
+
+#divs{
+	border-style: solid; 
+	border-color: yellow; 
+	background-color:yellow;
+	width:285px; 
+	height:150px; 
+	border-radius: 15px 15px 15px 15px;
+}
+
+
